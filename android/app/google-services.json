@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269023879196",
+    "project_id": "remote-config-proj",
+    "storage_bucket": "remote-config-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269023879196:android:3b748987c53853b81c7fd9",
+        "android_client_info": {
+          "package_name": "com.cashking.cashking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269023879196-87tuojm6ekm9o5pmfuchsfh7hmvb8cgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcTPzfLw52Yd9V8NsW_qTDHjkUU97wEos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269023879196-87tuojm6ekm9o5pmfuchsfh7hmvb8cgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
