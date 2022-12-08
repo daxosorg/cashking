@@ -34,10 +34,8 @@ class AllOffersView extends GetView<AllOffersController> {
                             Routes.OFFER_DETAIL,
                             arguments: [
                               element.thumbnail,
-                              element.title,
-                              element.payoutAmt,
-                              "Focus on your project, we'll take care of the routine",
                               controller.tasks.indexOf(element),
+                              (element.customData!.appRating ?? "").isEmpty ? 2.0 : double.parse(element.customData!.appRating!),
                             ],
                           ),
                           child: Padding(
@@ -95,10 +93,8 @@ class AllOffersView extends GetView<AllOffersController> {
                             Routes.OFFER_DETAIL,
                             arguments: [
                               element.thumbnail,
-                              element.title,
-                              element.payoutAmt,
-                              "Focus on your project, we'll take care of the routine",
                               controller.tasks.indexOf(element),
+                              (element.customData!.appRating ?? "").isEmpty ? 2.0 : double.parse(element.customData!.appRating!),
                             ],
                           ),
                           child: Padding(
